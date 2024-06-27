@@ -6,6 +6,6 @@ main() {
 
 	x = 13;
 	y = 17;
-
+	
 	printf("x=%d, y=%d", x, y);
 }
