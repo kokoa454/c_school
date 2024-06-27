@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\qqnq7\\Desktop\\C\\test_00\\",
+  "WorkspaceRootPath": "C:\\Users\\qqnq7\\Documents\\Programming\\c_school\\test_00\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{478D3A70-3B64-4D37-9975-D437D284C019}|test_00\\test_00.vcxproj|C:\\Users\\qqnq7\\Desktop\\C\\test_00\\test_00\\test_00.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{478D3A70-3B64-4D37-9975-D437D284C019}|test_00\\test_00.vcxproj|C:\\Users\\qqnq7\\Documents\\Programming\\c_school\\test_00\\test_00\\test_00.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{478D3A70-3B64-4D37-9975-D437D284C019}|test_00\\test_00.vcxproj|solutionrelative:test_00\\test_00.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -24,9 +24,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "test_00.c",
-              "DocumentMoniker": "C:\\Users\\qqnq7\\Desktop\\C\\test_00\\test_00\\test_00.c",
+              "DocumentMoniker": "C:\\Users\\qqnq7\\Documents\\Programming\\c_school\\test_00\\test_00\\test_00.c",
               "RelativeDocumentMoniker": "test_00\\test_00.c",
-              "ToolTip": "C:\\Users\\qqnq7\\Desktop\\C\\test_00\\test_00\\test_00.c",
+              "ToolTip": "C:\\Users\\qqnq7\\Documents\\Programming\\c_school\\test_00\\test_00\\test_00.c",
               "RelativeToolTip": "test_00\\test_00.c",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
