@@ -13,5 +13,4 @@ int main() {
 	printf("a + b = %d\na - b = %d\na * b = %d\na / b = %d\na %% b = %d\n", a + b, a - b, a * b, a / b, a % b);
 
 	return 0;
-
 }
