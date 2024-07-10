@@ -2,31 +2,29 @@
 
 int main(void) {
 	int a, b, c;
+	int maxNum, positionNum;
 
 	printf("1番目の数値を入力してください:");
 	scanf("%d", &a);
 	printf("2番目の数値を入力してください:");
-	rewind(stdin);
 	scanf("%d", &b);
 	printf("3番目の数値を入力してください:");
-	rewind(stdin);
 	scanf("%d", &c);
 
-	if (a > b) {
-		if (a > c) {
-			printf("最大値は1番目の%dです。\n", a);
-		}
-		else {
-			printf("最大値は3番目の%dです。\n", c);
-		}
+	if (a >= b && a >= c) {
+		maxNum = a;
+		positionNum = 1;
 	}
-	else if (b > c) {
-		printf("最大値は2番目の%dです。\n", b);
+	else if (b >= a && b >= c) {
+		maxNum = b;
+		positionNum = 2;
 	}
-	else
-	{
-		printf("最大値は3番目の%dです。\n", c);
+	else {
+		maxNum = c;
+		positionNum = 3;
 	}
+
+	printf("最大値は%d番目の数：%d", positionNum, maxNum);
 
 	return 0;
 }
