@@ -22,7 +22,7 @@ int main(void) {
 		median = c;
 	}
 	
-	printf("中央値は%dです。\n", median);
+	printf("中央値は%dです\n", median);
 
 	return 0;
 }
