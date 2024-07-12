@@ -4,7 +4,7 @@ int main() {
 	char c = 100;
 	char d = c + 100;
 
-	printf("%d", d); //?-56????
+	printf("%d", d);
 
 	return 0;
 }

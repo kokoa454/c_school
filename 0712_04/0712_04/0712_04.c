@@ -4,12 +4,12 @@ int main(void) {
 	int a, b, c;
 	int median;
 
-	printf("***** else if æ§‹æ–‡â‘¢ *****\n");
-	printf("æ•°å€¤1ï¼š");
+	printf("***** else if \•¶‡B *****\n");
+	printf("”’l1F");
 	scanf("%d", &a);
-	printf("æ•°å€¤2ï¼š");
+	printf("”’l2F");
 	scanf("%d", &b);
-	printf("æ•°å€¤3ï¼š");
+	printf("”’l3F");
 	scanf("%d", &c);
 
 	if ((b > a && a > c) || (c > a && a > b)) {
@@ -22,7 +22,7 @@ int main(void) {
 		median = c;
 	}
 	
-	printf("ä¸­å¤®å€¤ã¯%dã§ã™\n", median);
+	printf("’†‰›’l‚Í%d‚Å‚·\n", median);
 
 	return 0;
 }

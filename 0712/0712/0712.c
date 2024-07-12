@@ -3,22 +3,22 @@
 int main(void) {
 	int p1, p2;
 
-	printf("ä¸­é–“ãƒ†ã‚¹ãƒˆã®ç‚¹æ•°ï¼š");
+	printf("’†ŠÔƒeƒXƒg‚Ì“_”F");
 	scanf("%d", &p1);
-	printf("æœŸæœ«ãƒ†ã‚¹ãƒˆã®ç‚¹æ•°ï¼š");
+	printf("Šú––ƒeƒXƒg‚Ì“_”F");
 	scanf("%d", &p2);
 
 	if (p1 >= 80 && p2 >= 80) {
-		printf("æˆç¸¾ã¯ã€Œå„ªã€ã§ã™\n");
+		printf("¬Ñ‚Íu—Dv‚Å‚·\n");
 	}
 	else if (p1 + p2 >= 140) {
-		printf("æˆç¸¾ã¯ã€Œè‰¯ã€ã§ã™\n");
+		printf("¬Ñ‚Íu—Çv‚Å‚·\n");
 	}
 	else if (p1 + p2 >= 100 && (p1 >= 90 || p2 >= 90)) {
-		printf("æˆç¸¾ã¯ã€Œå¯ã€ã§ã™\n");
+		printf("¬Ñ‚Íu‰Âv‚Å‚·\n");
 	}
 	else {
-		printf("æˆç¸¾ã¯ã€Œä¸å¯ã€ã§ã™\n");
+		printf("¬Ñ‚Íu•s‰Âv‚Å‚·\n");
 	}
 
 	return 0;

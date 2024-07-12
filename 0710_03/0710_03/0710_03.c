@@ -4,11 +4,11 @@ int main(void) {
 	int a, b, c;
 	int maxNum, positionNum;
 
-	printf("1ç•ªç›®ã®æ•°å€¤ã‚’å…¥åŠ›ã—ã¦ãã ã•ã„:");
+	printf("1”Ô–Ú‚Ì”’l‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢:");
 	scanf("%d", &a);
-	printf("2ç•ªç›®ã®æ•°å€¤ã‚’å…¥åŠ›ã—ã¦ãã ã•ã„:");
+	printf("2”Ô–Ú‚Ì”’l‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢:");
 	scanf("%d", &b);
-	printf("3ç•ªç›®ã®æ•°å€¤ã‚’å…¥åŠ›ã—ã¦ãã ã•ã„:");
+	printf("3”Ô–Ú‚Ì”’l‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢:");
 	scanf("%d", &c);
 
 	if (a >= b && a >= c) {
@@ -24,7 +24,7 @@ int main(void) {
 		positionNum = 3;
 	}
 
-	printf("æœ€å¤§å€¤ã¯%dç•ªç›®ã®æ•°ï¼š%d", positionNum, maxNum);
+	printf("Å‘å’l‚Í%d”Ô–Ú‚Ì”F%d", positionNum, maxNum);
 
 	return 0;
 }

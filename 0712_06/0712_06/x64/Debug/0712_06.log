@@ -1,3 +1,4 @@
-﻿  0712_06.cpp
-C:\Users\qqnq7\source\repos\0712_06\0712_06\0712_06.cpp(7,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  0712_06.vcxproj -> C:\Users\qqnq7\source\repos\0712_06\x64\Debug\0712_06.exe
+﻿  0712_06.c
+C:\Users\qqnq7\Documents\Programming\c_school\0712_06\0712_06\0712_06.c(7,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  LINK : 前回のインクリメンタル リンクで C:\Users\qqnq7\Documents\Programming\c_school\0712_06\x64\Debug\0712_06.exe が見つからなかったか、ビルドされませんでした。フル リンクを行います。
+  0712_06.vcxproj -> C:\Users\qqnq7\Documents\Programming\c_school\0712_06\x64\Debug\0712_06.exe

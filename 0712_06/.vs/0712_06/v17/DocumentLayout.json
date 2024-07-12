@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\qqnq7\\source\\repos\\0712_06\\",
+  "WorkspaceRootPath": "C:\\Users\\qqnq7\\Documents\\Programming\\c_school\\0712_06\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{13F07951-3F76-4742-803C-6735D859888B}|0712_06\\0712_06.vcxproj|C:\\Users\\qqnq7\\source\\repos\\0712_06\\0712_06\\0712_06.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{13F07951-3F76-4742-803C-6735D859888B}|0712_06\\0712_06.vcxproj|solutionrelative:0712_06\\0712_06.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{13F07951-3F76-4742-803C-6735D859888B}|0712_06\\0712_06.vcxproj|C:\\Users\\qqnq7\\Documents\\Programming\\c_school\\0712_06\\0712_06\\0712_06.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{13F07951-3F76-4742-803C-6735D859888B}|0712_06\\0712_06.vcxproj|solutionrelative:0712_06\\0712_06.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,13 +27,13 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "0712_06.cpp",
-              "DocumentMoniker": "C:\\Users\\qqnq7\\source\\repos\\0712_06\\0712_06\\0712_06.cpp",
-              "RelativeDocumentMoniker": "0712_06\\0712_06.cpp",
-              "ToolTip": "C:\\Users\\qqnq7\\source\\repos\\0712_06\\0712_06\\0712_06.cpp",
-              "RelativeToolTip": "0712_06\\0712_06.cpp",
+              "Title": "0712_06.c",
+              "DocumentMoniker": "C:\\Users\\qqnq7\\Documents\\Programming\\c_school\\0712_06\\0712_06\\0712_06.c",
+              "RelativeDocumentMoniker": "0712_06\\0712_06.c",
+              "ToolTip": "C:\\Users\\qqnq7\\Documents\\Programming\\c_school\\0712_06\\0712_06\\0712_06.c",
+              "RelativeToolTip": "0712_06\\0712_06.c",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAD4AAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-07-12T03:17:06.974Z",
               "EditorCaption": ""
             }

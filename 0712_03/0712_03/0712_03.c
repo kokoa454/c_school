@@ -4,12 +4,12 @@ int main(void) {
 	int a, b, c;
 	int maxNum, minNum;
 
-	printf("***** else if æ§‹æ–‡â‘¡ *****\n");
-	printf("æ•°å€¤1ï¼š");
+	printf("***** else if \•¶‡A *****\n");
+	printf("”’l1F");
 	scanf("%d", &a);
-	printf("æ•°å€¤2ï¼š");
+	printf("”’l2F");
 	scanf("%d", &b);
-	printf("æ•°å€¤3ï¼š");
+	printf("”’l3F");
 	scanf("%d", &c);
 
 	if (a > b && a > c) {
@@ -40,8 +40,8 @@ int main(void) {
 		}
 	}
 
-	printf("æœ€å¤§å€¤ã¯%d\n", maxNum);
-	printf("æœ€å°å€¤ã¯%d\n", minNum);
+	printf("Å‘å’l‚Í%d\n", maxNum);
+	printf("Å¬’l‚Í%d\n", minNum);
 
 	return 0;
 }

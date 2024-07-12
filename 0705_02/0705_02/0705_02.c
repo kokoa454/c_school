@@ -3,10 +3,10 @@
 main() {
 	int a, b;
 
-	printf("å¤‰æ•°aã«æ•°å€¤ã‚’å…¥åŠ›ã—ã¦ãã ã•ã„ï¼š");
+	printf("•Ï”a‚É”’l‚ð“ü—Í‚µ‚Ä‚­‚¾‚³‚¢F");
 	scanf("%d", &a);
 
-	printf("å¤‰æ•°bã«æ•°å€¤ã‚’å…¥åŠ›ã—ã¦ãã ã•ã„ï¼š");
+	printf("•Ï”b‚É”’l‚ð“ü—Í‚µ‚Ä‚­‚¾‚³‚¢F");
 	scanf("%d", &b);
 
 	printf("%d + %d = %d\n", a, b, a + b);

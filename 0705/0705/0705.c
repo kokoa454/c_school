@@ -5,8 +5,8 @@ main() {
 
 	int in_data1, in_data2, in_data3;
 
-	printf("æ•°å­—ã‚’å…¥åŠ›ã—ã¦ãã ã•ã„:");
+	printf("”š‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢:");
 	scanf("%d %d %d", &in_data1, &in_data2, &in_data3);
 	
-	printf("å…¥åŠ›ã—ãŸæ•°å­—ã¯%dã€%dã€%dã§ã™ã€‚", in_data1, in_data2, in_data3);
+	printf("“ü—Í‚µ‚½”š‚Í%dA%dA%d‚Å‚·B", in_data1, in_data2, in_data3);
 }

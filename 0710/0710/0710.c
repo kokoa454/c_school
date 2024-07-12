@@ -4,16 +4,16 @@ int main(void) {
 	int payment;
 	char discount;
 
-	printf("æ”¯æ‰•é‡‘é¡ã‚’å…¥åŠ›ã—ã¦ãã ã•ã„ï¼š");
+	printf("x•¥‹àŠz‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢F");
 	scanf("%d", &payment);
-	printf("å‰²å¼•åˆ¸ã¯ã‚ã‚Šã¾ã™ã‹ï¼ˆY/Nï¼‰ï¼š");
+	printf("Š„ˆøŒ”‚Í‚ ‚è‚Ü‚·‚©iY/NjF");
 	rewind(stdin);
 	scanf("%c", &discount);
 
 	if (discount == 'Y') {
-		printf("æ”¯æ‰•é‡‘é¡ã¯%då††ã§ã™ã€‚\n", payment - 100);
+		printf("x•¥‹àŠz‚Í%d‰~‚Å‚·B\n", payment - 100);
 	}
 	else {
-		printf("æ”¯æ‰•é‡‘é¡ã¯%då††ã§ã™ã€‚\n", payment);
+		printf("x•¥‹àŠz‚Í%d‰~‚Å‚·B\n", payment);
 	}
 }

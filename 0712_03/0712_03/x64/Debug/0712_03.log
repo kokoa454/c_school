@@ -1,5 +1,8 @@
 ﻿  0712_03.c
-C:\Users\qqnq7\Documents\Programming\c_school\0712_03\0712_03\0712_03.c(9,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\qqnq7\Documents\Programming\c_school\0712_03\0712_03\0712_03.c(11,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\qqnq7\Documents\Programming\c_school\0712_03\0712_03\0712_03.c(13,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  0712_03.vcxproj -> C:\Users\qqnq7\Documents\Programming\c_school\0712_03\x64\Debug\0712_03.exe
+C:\Users\qqnq7\Documents\Programming\c_school\0712_03\0712_03\0712_03.c(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+C:\Users\qqnq7\Documents\Programming\c_school\0712_03\0712_03\0712_03.c(8,9): error C2001: 定数が 2 行目に続いています。
+C:\Users\qqnq7\Documents\Programming\c_school\0712_03\0712_03\0712_03.c(9,2): error C2146: 構文エラー: ')' が、識別子 'scanf' の前に必要です。
+C:\Users\qqnq7\Documents\Programming\c_school\0712_03\0712_03\0712_03.c(10,9): error C2001: 定数が 2 行目に続いています。
+C:\Users\qqnq7\Documents\Programming\c_school\0712_03\0712_03\0712_03.c(11,2): error C2146: 構文エラー: ')' が、識別子 'scanf' の前に必要です。
+C:\Users\qqnq7\Documents\Programming\c_school\0712_03\0712_03\0712_03.c(12,9): error C2001: 定数が 2 行目に続いています。
+C:\Users\qqnq7\Documents\Programming\c_school\0712_03\0712_03\0712_03.c(13,2): error C2146: 構文エラー: ')' が、識別子 'scanf' の前に必要です。

@@ -2,10 +2,10 @@
 
 int main(void) {
 	if (0) {
-		printf("æ¡ä»¶ã‚’æº€ãŸã™ã€‚\n");
+		printf("ğŒ‚ğ–‚½‚·B\n");
 	}
 	else {
-		printf("æ¡ä»¶ã‚’æº€ãŸã•ãªã„ã€‚\n");
+		printf("ğŒ‚ğ–‚½‚³‚È‚¢B\n");
 	}
 
 	return 0;

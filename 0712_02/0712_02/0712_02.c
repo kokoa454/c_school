@@ -4,20 +4,20 @@ int main(void) {
 	int x;
 	int y;
 
-	printf("***** else if æ§‹æ–‡ *****");
-	printf("xã‚’å…¥åŠ›ã—ã¦ãã ã•ã„ï¼š");
+	printf("***** else if \•¶ *****");
+	printf("x‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢F");
 	scanf("%d", &x);
-	printf("yã‚’å…¥åŠ›ã—ã¦ãã ã•ã„ï¼š");
+	printf("y‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢F");
 	scanf("%d", &y);
 
 	if (x > y) {
-		printf("xã¯yã‚ˆã‚Šå¤§ãã„");
+		printf("x‚Íy‚æ‚è‘å‚«‚¢");
 	}
 	else if (x < y) {
-		pritnf("xã¯yã‚ˆã‚Šå°ã•ã„");
+		pritnf("x‚Íy‚æ‚è¬‚³‚¢");
 	}
 	else {
-		printf("xã¯yã¨ç­‰ã—ã„");
+		printf("x‚Íy‚Æ“™‚µ‚¢");
 	}
 
 	return 0;

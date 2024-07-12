@@ -8,16 +8,16 @@ int main(void) {
 
 	switch (fortune) {
 	case 1:
-		printf("å¤§å‰\n");
+		printf("‘å‹g\n");
 		break;
 	case 2:
-		printf("ä¸­å‰\n");
+		printf("’†‹g\n");
 		break;
 	case 3:
-		printf("å‰\n");
+		printf("‹g\n");
 		break;
 	default:
-		printf("å‡¶");
+		printf("‹¥");
 	}
 
 	return 0;
