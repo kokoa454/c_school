@@ -1,0 +1,7 @@
+﻿  0712_ex.c
+C:\Users\qqnq7\Documents\Programming\c_school\0712\0712\0712_ex.c(17,3): warning C4013: 関数 'prinf' は定義されていません。int 型の値を返す外部関数と見なします。
+C:\Users\qqnq7\Documents\Programming\c_school\0712\0712\0712_ex.c(9,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\qqnq7\Documents\Programming\c_school\0712\0712\0712_ex.c(11,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+0712_ex.obj : error LNK2005: main は既に 0712.obj で定義されています。
+0712_ex.obj : error LNK2019: 未解決の外部シンボル prinf が関数 main で参照されました
+C:\Users\qqnq7\Documents\Programming\c_school\0712\x64\Debug\0712.exe : fatal error LNK1120: 1 件の未解決の外部参照
