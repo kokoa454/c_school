@@ -1,0 +1,3 @@
+﻿  0719_04.c
+C:\Users\qqnq7\Documents\Programming\c_school\0719_04\0719_04\0719_04.c(8,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  0719_04.vcxproj -> C:\Users\qqnq7\Documents\Programming\c_school\0719_04\x64\Debug\0719_04.exe
