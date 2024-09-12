@@ -1,0 +1,4 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: 中間ディレクトリ (x64\Debug\) に別のプロジェクト (0912_04.vcxproj) と共有されているファイルが含まれています。これにより、クリーンしてリビルド動作が適切に行われない可能性があります。
+  0912_05.c
+C:\Users\qqnq7\Documents\Programming\c_school\0912_05\0912_04\0912_05.c(9,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  0912_04.vcxproj -> C:\Users\qqnq7\Documents\Programming\c_school\0912_05\x64\Debug\0912_05.exe
