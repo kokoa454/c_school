@@ -7,7 +7,16 @@ main() {
 		printf("0`100‚Ì“_”‚ð“ü—Í‚µ‚Ä‚­‚¾‚³‚¢: ");
 		scanf("%d", &point);
 
+		/* 
 		if (point >= 0 && point <= 100) {
+			break;
+		}
+		*/
+
+		if (point < 0 || point > 100) {
+			continue;
+		}
+		else {
 			break;
 		}
 	}
