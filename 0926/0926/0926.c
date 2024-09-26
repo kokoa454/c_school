@@ -12,7 +12,7 @@ int main(void) {
 			sum = sum + data[i][j];
 		}
 
-		printf("出席番号%dの合計点: %d\n", i + 1, sum);
+		printf("出席番号%dの合計点: %d点\n", i + 1, sum);
 	}
 
 	for (int i = 0; i < 6; i++) {
@@ -23,8 +23,8 @@ int main(void) {
 	avrJP = avrJP / 6;
 	avrEN = avrEN / 6;
 
-	printf("\n\n国語の平均点: %d\n", avrJP);
-	printf("英語の平均点: %d\n", avrEN);
+	printf("\n\n国語の平均点: %d点\n", avrJP);
+	printf("英語の平均点: %d点\n", avrEN);
 
 	return 0;
 }
