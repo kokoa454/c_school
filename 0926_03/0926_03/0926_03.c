@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(void) {
-	char alpha[4] = "ABC";
+	char alpha[3] = "ABC";
 	int i = 0;
 
 	while (alpha[i] != '\0') {
