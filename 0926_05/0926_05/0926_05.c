@@ -7,8 +7,8 @@ int main(void) {
 	printf("ƒf[ƒ^”: ");
 	scanf("%d", &x);
 
-	if (x > 10) {
-		printf("\n\n!!!ERROR!!!\n");
+	if (x < 1 || x > 10) {
+		printf("\n!!!ERROR!!!\n");
 		return 0;
 	}
 
