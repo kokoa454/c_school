@@ -17,18 +17,21 @@ int main(void) {
 		scanf("%d", &data[i]);
 	}
 
-	for (int i = 0; i < x; i++) {
+	for (int i = 0; i < x - 1; i++) {
+		int maxNum = i;
+		
 		for (int j = i + 1; j < x; j++) {
-			if (data[i] < data[j]) {
-				int w;
-				w = data[i];
-				data[i] = data[j];
-				data[j] = w;
+			if (data[j] > data[maxNum]) {
+				maxNum = j;
 			}
 		}
+
+		int w = data[i];
+		data[i] = data[maxNum];
+		data[maxNum] = w;
 	}
 
-	printf("\n\n");
+	printf("***ソート済みデータ(降順)***\n");
 
 	for (int i = 0; i < x; i++) {
 		printf("%dつ目の点数: %d\n", i + 1, data[i]);
