@@ -8,6 +8,7 @@ int main(void) {
 	*p = 20;
 
 	printf("x = %d\n", x);
+	printf("x = %p\n", p);
 
 	return 0;
 }
