@@ -6,8 +6,8 @@ int main(void) {
 
 	str_pt = str;
 
-	*str_pt = 'H';
-	*(str_pt + 6) = 'W';
+	*str_pt -= 32;
+	*(str_pt + 6) -= 32;
 
 	printf("%s\n", str);
 
