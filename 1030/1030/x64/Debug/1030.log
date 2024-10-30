@@ -1,0 +1,6 @@
+﻿  1030.c
+C:\Users\qqnq7\Documents\Programming\c_school\1030\1030\1030.c(10,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\qqnq7\Documents\Programming\c_school\1030\1030\1030.c(11,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\qqnq7\Documents\Programming\c_school\1030\1030\1030.c(12,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\qqnq7\Documents\Programming\c_school\1030\1030\1030.c(13,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  1030.vcxproj -> C:\Users\qqnq7\Documents\Programming\c_school\1030\x64\Debug\1030.exe
