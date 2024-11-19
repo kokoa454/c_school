@@ -1,0 +1,4 @@
+﻿  1119_03.c
+C:\Users\qqnq7\Documents\Programming\c_school\1119_03\1119_03\1119_03.c(25,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\qqnq7\Documents\Programming\c_school\1119_03\1119_03\1119_03.c(27,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  1119_03.vcxproj -> C:\Users\qqnq7\Documents\Programming\c_school\1119_03\x64\Debug\1119_03.exe
