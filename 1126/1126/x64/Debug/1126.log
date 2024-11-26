@@ -1,2 +1,4 @@
 ﻿  1126.c
+C:\Users\qqnq7\Documents\Programming\c_school\1126\1126\1126.c(24,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\qqnq7\Documents\Programming\c_school\1126\1126\1126.c(25,2): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   1126.vcxproj -> C:\Users\qqnq7\Documents\Programming\c_school\1126\x64\Debug\1126.exe
