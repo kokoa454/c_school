@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(void) {
-	char data[2048];
+	char data[10];
 	FILE* fp = fopen("data.txt", "r");
 	if (fp == NULL) {
 		printf("ファイルが開けません\n");
@@ -10,6 +10,10 @@ int main(void) {
 	else {
 		while (fgets(data, 256, fp) != NULL) {
 			printf("%s\n", data);
+		}
+
+		for (int i = 0; i < 10; i++) {
+			printf("data[%d] = %c\n", i, data[i]);
 		}
 	}
 
