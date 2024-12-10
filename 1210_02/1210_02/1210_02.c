@@ -17,8 +17,8 @@ typedef struct {
 }student;
 
 void show_header();
-void show(student* , int);
-void input(student* , int);
+void show(student*);
+void input(student*);
 
 int flg = 0;
 
@@ -46,7 +46,10 @@ int main(void) {
 		if (inputNum == 1) {
 			if (cnt != 0) {
 				show_header();
-				show(st, cnt);
+				for (int i = 0; i < cnt; i++) {
+					show(&st[i]);
+				}
+				printf("\n\n");
 			}
 			else {
 				printf("!ERROR: データを1つ以上入力してください!\n\n");
@@ -55,7 +58,7 @@ int main(void) {
 		else if (inputNum == 2) {
 			while (flg != 1) {
 				printf("%d人目の入力\n", (cnt + 1));
-				input(st, cnt);
+				input(st + cnt);
 				cnt++;
 
 				printf("入力を終了しますか？ (y or n)\n");
@@ -85,37 +88,33 @@ void show_header() {
 	return;
 }
 
-void show(student *st, int cnt) {
-	for (int i = 0; i < cnt; i++) {
-		printf("%8d　%10s　%4d　%5c 　|　%4d　%4d　%4d　%4d　%4d\n", st[i].no , st[i].name, st[i].grade, st[i].classNo, st[i].point.eng, st[i].point.ja, st[i].point.math, st[i].point.science, st[i].point.social);
-	}
-
-	printf("\n\n");
+void show(student *st) {
+	printf("%8d　%10s　%4d　%5c 　|　%4d　%4d　%4d　%4d　%4d\n", st->no , st->name, st->grade, st->classNo, st->point.eng, st->point.ja, st->point.math, st->point.science, st->point.social);
 	return;
 }
 
-void input(student *st, int i) {
+void input(student *st) {
 	printf("学籍番号 = ");
-	scanf("%d", &st[i].no);
+	scanf("%d", &st->no);
 	printf("氏名 = ");
-	scanf("%s", &st[i].name);
+	scanf("%s", &st->name);
 	printf("学年 = ");
-	scanf("%d", &st[i].grade);
+	scanf("%d", &st->grade);
 	rewind(stdin);
 	printf("クラス = ");
-	scanf("%c", &st[i].classNo);
+	scanf("%c", &st->classNo);
 	printf("\n");
 	printf("点数\n");
 	printf("英語: ");
-	scanf("%d", &st[i].point.eng);
+	scanf("%d", &st->point.eng);
 	printf("国語: ");
-	scanf("%d", &st[i].point.ja);
+	scanf("%d", &st->point.ja);
 	printf("数学: ");
-	scanf("%d", &st[i].point.math);
+	scanf("%d", &st->point.math);
 	printf("理科: ");
-	scanf("%d", &st[i].point.science);
+	scanf("%d", &st->point.science);
 	printf("社会: ");
-	scanf("%d", &st[i].point.social);
+	scanf("%d", &st->point.social);
 	rewind(stdin);
 
 	printf("\n\n");
