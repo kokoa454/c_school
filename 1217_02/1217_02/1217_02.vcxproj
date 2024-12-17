@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="input.c" />
     <ClCompile Include="main.c" />
+    <ClCompile Include="save.c" />
     <ClCompile Include="show.c" />
     <ClCompile Include="showheader.c" />
   </ItemGroup>

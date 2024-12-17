@@ -20,5 +20,6 @@ typedef struct {
 void show_header();
 void show(student*);
 void input(student*);
+void save(student*);
 
 #endif
