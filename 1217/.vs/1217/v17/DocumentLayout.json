@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\qqnq7\\Documents\\Programming\\c_school\\1217\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{08641A0C-8335-4BEF-A0B4-70940B4E035E}|1217\\1217.vcxproj|C:\\Users\\qqnq7\\Documents\\Programming\\c_school\\1217\\1217\\showheader.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{08641A0C-8335-4BEF-A0B4-70940B4E035E}|1217\\1217.vcxproj|solutionrelative:1217\\showheader.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{08641A0C-8335-4BEF-A0B4-70940B4E035E}|1217\\1217.vcxproj|C:\\Users\\qqnq7\\Documents\\Programming\\c_school\\1217\\1217\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{08641A0C-8335-4BEF-A0B4-70940B4E035E}|1217\\1217.vcxproj|solutionrelative:1217\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{08641A0C-8335-4BEF-A0B4-70940B4E035E}|1217\\1217.vcxproj|C:\\Users\\qqnq7\\Documents\\Programming\\c_school\\1217\\1217\\show.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{08641A0C-8335-4BEF-A0B4-70940B4E035E}|1217\\1217.vcxproj|solutionrelative:1217\\show.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08641A0C-8335-4BEF-A0B4-70940B4E035E}|1217\\1217.vcxproj|C:\\Users\\qqnq7\\Documents\\Programming\\c_school\\1217\\1217\\showheader.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{08641A0C-8335-4BEF-A0B4-70940B4E035E}|1217\\1217.vcxproj|solutionrelative:1217\\showheader.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,7 +42,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "showheader.c",
               "DocumentMoniker": "C:\\Users\\qqnq7\\Documents\\Programming\\c_school\\1217\\1217\\showheader.c",
               "RelativeDocumentMoniker": "1217\\showheader.c",
@@ -55,7 +55,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "show.c",
               "DocumentMoniker": "C:\\Users\\qqnq7\\Documents\\Programming\\c_school\\1217\\1217\\show.c",
               "RelativeDocumentMoniker": "1217\\show.c",
@@ -63,12 +63,11 @@
               "RelativeToolTip": "1217\\show.c",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-12-17T00:35:32.197Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-17T00:35:32.197Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "input.c",
               "DocumentMoniker": "C:\\Users\\qqnq7\\Documents\\Programming\\c_school\\1217\\1217\\input.c",
               "RelativeDocumentMoniker": "1217\\input.c",
@@ -76,12 +75,11 @@
               "RelativeToolTip": "1217\\input.c",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-12-17T00:35:22.365Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-17T00:35:22.365Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "studentdata.h",
               "DocumentMoniker": "C:\\Users\\qqnq7\\Documents\\Programming\\c_school\\1217\\1217\\studentdata.h",
               "RelativeDocumentMoniker": "1217\\studentdata.h",
@@ -89,21 +87,19 @@
               "RelativeToolTip": "1217\\studentdata.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-17T00:30:26.628Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-17T00:30:26.628Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "main.c",
               "DocumentMoniker": "C:\\Users\\qqnq7\\Documents\\Programming\\c_school\\1217\\1217\\main.c",
               "RelativeDocumentMoniker": "1217\\main.c",
               "ToolTip": "C:\\Users\\qqnq7\\Documents\\Programming\\c_school\\1217\\1217\\main.c",
               "RelativeToolTip": "1217\\main.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAD0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-12-17T00:29:06.123Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-17T00:29:06.123Z"
             }
           ]
         }
