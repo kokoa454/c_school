@@ -18,14 +18,13 @@ typedef struct {
 
 void show_header();
 void show(student*);
-void input(student*);
-
-int flg = 0;
+void input(student*);;
 
 int main(void) {
 	student school[128];
 	student* st;
 	st = school;
+	int flg = 0;
 
 	int inputNum;
 	int cnt = 0;
