@@ -9,6 +9,8 @@ int main(void) {
 
 	int inputNum;
 	int cnt = 0;
+	int* cnt_p;
+	cnt_p = &cnt;
 	char yOrn;
 
 	printf("****************¬Ñ•[****************\n");
@@ -56,7 +58,7 @@ int main(void) {
 				printf("!ERROR: ƒf[ƒ^‚ğ1‚ÂˆÈã“ü—Í‚µ‚Ä‚­‚¾‚³‚¢!\n\n");
 			}
 			else {
-				save(st);
+				save(st, cnt_p);
 			}
 		}
 		else if (inputNum == 0) {
