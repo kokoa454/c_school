@@ -1,0 +1,79 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\qqnq7\\Documents\\Programming\\c_school\\1217_03\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AC66A3D1-82CB-405A-826B-62B1325E5AB5}|1217_03\\1217_03.vcxproj|C:\\Users\\qqnq7\\Documents\\Programming\\c_school\\1217_03\\1217_03\\read.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AC66A3D1-82CB-405A-826B-62B1325E5AB5}|1217_03\\1217_03.vcxproj|solutionrelative:1217_03\\read.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC66A3D1-82CB-405A-826B-62B1325E5AB5}|1217_03\\1217_03.vcxproj|C:\\Users\\qqnq7\\Documents\\Programming\\c_school\\1217_03\\1217_03\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AC66A3D1-82CB-405A-826B-62B1325E5AB5}|1217_03\\1217_03.vcxproj|solutionrelative:1217_03\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC66A3D1-82CB-405A-826B-62B1325E5AB5}|1217_03\\1217_03.vcxproj|C:\\Users\\qqnq7\\Documents\\Programming\\c_school\\1217_03\\1217_03\\save.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AC66A3D1-82CB-405A-826B-62B1325E5AB5}|1217_03\\1217_03.vcxproj|solutionrelative:1217_03\\save.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "save.c",
+              "DocumentMoniker": "C:\\Users\\qqnq7\\Documents\\Programming\\c_school\\1217_03\\1217_03\\save.c",
+              "RelativeDocumentMoniker": "1217_03\\save.c",
+              "ToolTip": "C:\\Users\\qqnq7\\Documents\\Programming\\c_school\\1217_03\\1217_03\\save.c",
+              "RelativeToolTip": "1217_03\\save.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-12-23T01:12:50.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "read.c",
+              "DocumentMoniker": "C:\\Users\\qqnq7\\Documents\\Programming\\c_school\\1217_03\\1217_03\\read.c",
+              "RelativeDocumentMoniker": "1217_03\\read.c",
+              "ToolTip": "C:\\Users\\qqnq7\\Documents\\Programming\\c_school\\1217_03\\1217_03\\read.c",
+              "RelativeToolTip": "1217_03\\read.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-12-23T01:12:48.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main.c",
+              "DocumentMoniker": "C:\\Users\\qqnq7\\Documents\\Programming\\c_school\\1217_03\\1217_03\\main.c",
+              "RelativeDocumentMoniker": "1217_03\\main.c",
+              "ToolTip": "C:\\Users\\qqnq7\\Documents\\Programming\\c_school\\1217_03\\1217_03\\main.c",
+              "RelativeToolTip": "1217_03\\main.c",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-12-23T01:12:36.356Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
