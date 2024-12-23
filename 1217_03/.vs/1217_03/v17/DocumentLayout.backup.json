@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\qqnq7\\Documents\\Programming\\c_school\\1217_03\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AC66A3D1-82CB-405A-826B-62B1325E5AB5}|1217_03\\1217_03.vcxproj|C:\\Users\\qqnq7\\Documents\\Programming\\c_school\\1217_03\\1217_03\\read.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{AC66A3D1-82CB-405A-826B-62B1325E5AB5}|1217_03\\1217_03.vcxproj|solutionrelative:1217_03\\read.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{AC66A3D1-82CB-405A-826B-62B1325E5AB5}|1217_03\\1217_03.vcxproj|C:\\Users\\qqnq7\\Documents\\Programming\\c_school\\1217_03\\1217_03\\save.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AC66A3D1-82CB-405A-826B-62B1325E5AB5}|1217_03\\1217_03.vcxproj|solutionrelative:1217_03\\save.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AC66A3D1-82CB-405A-826B-62B1325E5AB5}|1217_03\\1217_03.vcxproj|C:\\Users\\qqnq7\\Documents\\Programming\\c_school\\1217_03\\1217_03\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{AC66A3D1-82CB-405A-826B-62B1325E5AB5}|1217_03\\1217_03.vcxproj|solutionrelative:1217_03\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC66A3D1-82CB-405A-826B-62B1325E5AB5}|1217_03\\1217_03.vcxproj|C:\\Users\\qqnq7\\Documents\\Programming\\c_school\\1217_03\\1217_03\\save.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{AC66A3D1-82CB-405A-826B-62B1325E5AB5}|1217_03\\1217_03.vcxproj|solutionrelative:1217_03\\save.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{AC66A3D1-82CB-405A-826B-62B1325E5AB5}|1217_03\\1217_03.vcxproj|C:\\Users\\qqnq7\\Documents\\Programming\\c_school\\1217_03\\1217_03\\initialize.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AC66A3D1-82CB-405A-826B-62B1325E5AB5}|1217_03\\1217_03.vcxproj|solutionrelative:1217_03\\initialize.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,29 +34,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "save.c",
               "DocumentMoniker": "C:\\Users\\qqnq7\\Documents\\Programming\\c_school\\1217_03\\1217_03\\save.c",
               "RelativeDocumentMoniker": "1217_03\\save.c",
               "ToolTip": "C:\\Users\\qqnq7\\Documents\\Programming\\c_school\\1217_03\\1217_03\\save.c",
               "RelativeToolTip": "1217_03\\save.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-12-23T01:12:50.227Z",
+              "WhenOpened": "2024-12-23T01:38:59.011Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "read.c",
-              "DocumentMoniker": "C:\\Users\\qqnq7\\Documents\\Programming\\c_school\\1217_03\\1217_03\\read.c",
-              "RelativeDocumentMoniker": "1217_03\\read.c",
-              "ToolTip": "C:\\Users\\qqnq7\\Documents\\Programming\\c_school\\1217_03\\1217_03\\read.c",
-              "RelativeToolTip": "1217_03\\read.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "initialize.c",
+              "DocumentMoniker": "C:\\Users\\qqnq7\\Documents\\Programming\\c_school\\1217_03\\1217_03\\initialize.c",
+              "RelativeDocumentMoniker": "1217_03\\initialize.c",
+              "ToolTip": "C:\\Users\\qqnq7\\Documents\\Programming\\c_school\\1217_03\\1217_03\\initialize.c",
+              "RelativeToolTip": "1217_03\\initialize.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-12-23T01:12:48.636Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-23T01:37:36.084Z"
             },
             {
               "$type": "Document",
@@ -66,10 +65,9 @@
               "RelativeDocumentMoniker": "1217_03\\main.c",
               "ToolTip": "C:\\Users\\qqnq7\\Documents\\Programming\\c_school\\1217_03\\1217_03\\main.c",
               "RelativeToolTip": "1217_03\\main.c",
-              "ViewState": "AgIAADYAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAEEAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-12-23T01:12:36.356Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-23T01:12:36.356Z"
             }
           ]
         }

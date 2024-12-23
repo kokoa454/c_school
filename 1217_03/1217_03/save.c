@@ -20,7 +20,7 @@ void save(student *st, int *cnt_p) {
 		exit(EXIT_FAILURE);
 	}
 
-	printf("ファイルへの保存完了\n");
+	printf("ファイルへの保存完了\n\n");
 
 	return;
 }

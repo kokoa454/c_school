@@ -1,24 +1,6 @@
 ﻿  initialize.c
-C:\Users\qqnq7\Documents\Programming\c_school\1217_03\1217_03\initialize.c(8,15): warning C4047: '=': 間接参照のレベルが 'char' と 'char [1]' で異なっています。
-  input.c
-C:\Users\qqnq7\Documents\Programming\c_school\1217_03\1217_03\input.c(6,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\qqnq7\Documents\Programming\c_school\1217_03\1217_03\input.c(8,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\qqnq7\Documents\Programming\c_school\1217_03\1217_03\input.c(10,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\qqnq7\Documents\Programming\c_school\1217_03\1217_03\input.c(13,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\qqnq7\Documents\Programming\c_school\1217_03\1217_03\input.c(17,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\qqnq7\Documents\Programming\c_school\1217_03\1217_03\input.c(19,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\qqnq7\Documents\Programming\c_school\1217_03\1217_03\input.c(21,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\qqnq7\Documents\Programming\c_school\1217_03\1217_03\input.c(23,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\qqnq7\Documents\Programming\c_school\1217_03\1217_03\input.c(25,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  main.c
-C:\Users\qqnq7\Documents\Programming\c_school\1217_03\1217_03\main.c(28,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\qqnq7\Documents\Programming\c_school\1217_03\1217_03\main.c(50,5): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  read.c
-C:\Users\qqnq7\Documents\Programming\c_school\1217_03\1217_03\read.c(9,11): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\qqnq7\Documents\Programming\c_school\1217_03\1217_03\read.c(15,9): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   save.c
+C:\Users\qqnq7\Documents\Programming\c_school\1217_03\1217_03\initialize.c(8,15): warning C4047: '=': 間接参照のレベルが 'char' と 'char [1]' で異なっています。
 C:\Users\qqnq7\Documents\Programming\c_school\1217_03\1217_03\save.c(8,11): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  show.c
-  showheader.c
   コードを生成中...
   1217_03.vcxproj -> C:\Users\qqnq7\Documents\Programming\c_school\1217_03\x64\Debug\1217_03.exe

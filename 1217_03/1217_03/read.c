@@ -21,7 +21,7 @@ void read(student *st, int *cnt_p) {
 		exit(EXIT_FAILURE);
 	}
 
-	printf("ファイルからの入力完了\n");
+	printf("ファイルからの入力完了\n\n");
 
 	return;
 }
