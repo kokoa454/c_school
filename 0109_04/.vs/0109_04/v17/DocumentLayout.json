@@ -1,0 +1,113 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\qqnq7\\Documents\\Programming\\c_school\\0109_04\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{15FEFD5A-C108-4B11-8D2A-D629F21E8383}|0109_04\\0109_04.vcxproj|C:\\Users\\qqnq7\\Documents\\Programming\\c_school\\0109_04\\0109_04\\showAveragePointsByGrade.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{15FEFD5A-C108-4B11-8D2A-D629F21E8383}|0109_04\\0109_04.vcxproj|solutionrelative:0109_04\\showAveragePointsByGrade.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15FEFD5A-C108-4B11-8D2A-D629F21E8383}|0109_04\\0109_04.vcxproj|C:\\Users\\qqnq7\\Documents\\Programming\\c_school\\0109_04\\0109_04\\showHighestAndLowestPoints.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{15FEFD5A-C108-4B11-8D2A-D629F21E8383}|0109_04\\0109_04.vcxproj|solutionrelative:0109_04\\showHighestAndLowestPoints.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15FEFD5A-C108-4B11-8D2A-D629F21E8383}|0109_04\\0109_04.vcxproj|C:\\Users\\qqnq7\\Documents\\Programming\\c_school\\0109_04\\0109_04\\show.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{15FEFD5A-C108-4B11-8D2A-D629F21E8383}|0109_04\\0109_04.vcxproj|solutionrelative:0109_04\\show.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15FEFD5A-C108-4B11-8D2A-D629F21E8383}|0109_04\\0109_04.vcxproj|C:\\Users\\qqnq7\\Documents\\Programming\\c_school\\0109_04\\0109_04\\studentdata.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{15FEFD5A-C108-4B11-8D2A-D629F21E8383}|0109_04\\0109_04.vcxproj|solutionrelative:0109_04\\studentdata.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15FEFD5A-C108-4B11-8D2A-D629F21E8383}|0109_04\\0109_04.vcxproj|C:\\Users\\qqnq7\\Documents\\Programming\\c_school\\0109_04\\0109_04\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{15FEFD5A-C108-4B11-8D2A-D629F21E8383}|0109_04\\0109_04.vcxproj|solutionrelative:0109_04\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "showAveragePointsByGrade.c",
+              "DocumentMoniker": "C:\\Users\\qqnq7\\Documents\\Programming\\c_school\\0109_04\\0109_04\\showAveragePointsByGrade.c",
+              "RelativeDocumentMoniker": "0109_04\\showAveragePointsByGrade.c",
+              "ToolTip": "C:\\Users\\qqnq7\\Documents\\Programming\\c_school\\0109_04\\0109_04\\showAveragePointsByGrade.c",
+              "RelativeToolTip": "0109_04\\showAveragePointsByGrade.c",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-01-09T05:02:40.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "showHighestAndLowestPoints.c",
+              "DocumentMoniker": "C:\\Users\\qqnq7\\Documents\\Programming\\c_school\\0109_04\\0109_04\\showHighestAndLowestPoints.c",
+              "RelativeDocumentMoniker": "0109_04\\showHighestAndLowestPoints.c",
+              "ToolTip": "C:\\Users\\qqnq7\\Documents\\Programming\\c_school\\0109_04\\0109_04\\showHighestAndLowestPoints.c",
+              "RelativeToolTip": "0109_04\\showHighestAndLowestPoints.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-01-09T04:59:21.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "studentdata.h",
+              "DocumentMoniker": "C:\\Users\\qqnq7\\Documents\\Programming\\c_school\\0109_04\\0109_04\\studentdata.h",
+              "RelativeDocumentMoniker": "0109_04\\studentdata.h",
+              "ToolTip": "C:\\Users\\qqnq7\\Documents\\Programming\\c_school\\0109_04\\0109_04\\studentdata.h",
+              "RelativeToolTip": "0109_04\\studentdata.h",
+              "ViewState": "AgIAAA8AAAAAAAAAAADwvx0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-09T04:59:33.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "show.c",
+              "DocumentMoniker": "C:\\Users\\qqnq7\\Documents\\Programming\\c_school\\0109_04\\0109_04\\show.c",
+              "RelativeDocumentMoniker": "0109_04\\show.c",
+              "ToolTip": "C:\\Users\\qqnq7\\Documents\\Programming\\c_school\\0109_04\\0109_04\\show.c",
+              "RelativeToolTip": "0109_04\\show.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-01-09T04:57:41.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "main.c",
+              "DocumentMoniker": "C:\\Users\\qqnq7\\Documents\\Programming\\c_school\\0109_04\\0109_04\\main.c",
+              "RelativeDocumentMoniker": "0109_04\\main.c",
+              "ToolTip": "C:\\Users\\qqnq7\\Documents\\Programming\\c_school\\0109_04\\0109_04\\main.c",
+              "RelativeToolTip": "0109_04\\main.c",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAIwGQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-01-09T04:57:27.863Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
