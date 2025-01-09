@@ -1,0 +1,12 @@
+﻿  delete.c
+C:\Users\qqnq7\Documents\Programming\c_school\1223\1223\delete.c(13,13): warning C4047: '=': 間接参照のレベルが 'int' と 'void *' で異なっています。
+C:\Users\qqnq7\Documents\Programming\c_school\1223\1223\delete.c(16,19): warning C4047: '=': 間接参照のレベルが 'char' と 'void *' で異なっています。
+C:\Users\qqnq7\Documents\Programming\c_school\1223\1223\delete.c(19,16): warning C4047: '=': 間接参照のレベルが 'int' と 'void *' で異なっています。
+C:\Users\qqnq7\Documents\Programming\c_school\1223\1223\delete.c(20,18): warning C4047: '=': 間接参照のレベルが 'char' と 'void *' で異なっています。
+C:\Users\qqnq7\Documents\Programming\c_school\1223\1223\delete.c(21,20): warning C4047: '=': 間接参照のレベルが 'int' と 'void *' で異なっています。
+C:\Users\qqnq7\Documents\Programming\c_school\1223\1223\delete.c(22,19): warning C4047: '=': 間接参照のレベルが 'int' と 'void *' で異なっています。
+C:\Users\qqnq7\Documents\Programming\c_school\1223\1223\delete.c(23,21): warning C4047: '=': 間接参照のレベルが 'int' と 'void *' で異なっています。
+C:\Users\qqnq7\Documents\Programming\c_school\1223\1223\delete.c(24,24): warning C4047: '=': 間接参照のレベルが 'int' と 'void *' で異なっています。
+C:\Users\qqnq7\Documents\Programming\c_school\1223\1223\delete.c(25,23): warning C4047: '=': 間接参照のレベルが 'int' と 'void *' で異なっています。
+C:\Users\qqnq7\Documents\Programming\c_school\1223\1223\delete.c(9,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  1223.vcxproj -> C:\Users\qqnq7\Documents\Programming\c_school\1223\x64\Debug\1223.exe
