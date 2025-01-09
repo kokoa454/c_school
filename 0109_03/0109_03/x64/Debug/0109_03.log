@@ -1,0 +1,40 @@
+﻿  delete.c
+C:\Users\qqnq7\Documents\Programming\c_school\0109_03\0109_03\delete.c(13,13): warning C4047: '=': 間接参照のレベルが 'int' と 'void *' で異なっています。
+C:\Users\qqnq7\Documents\Programming\c_school\0109_03\0109_03\delete.c(16,19): warning C4047: '=': 間接参照のレベルが 'char' と 'void *' で異なっています。
+C:\Users\qqnq7\Documents\Programming\c_school\0109_03\0109_03\delete.c(19,16): warning C4047: '=': 間接参照のレベルが 'int' と 'void *' で異なっています。
+C:\Users\qqnq7\Documents\Programming\c_school\0109_03\0109_03\delete.c(20,18): warning C4047: '=': 間接参照のレベルが 'char' と 'void *' で異なっています。
+C:\Users\qqnq7\Documents\Programming\c_school\0109_03\0109_03\delete.c(21,20): warning C4047: '=': 間接参照のレベルが 'int' と 'void *' で異なっています。
+C:\Users\qqnq7\Documents\Programming\c_school\0109_03\0109_03\delete.c(22,19): warning C4047: '=': 間接参照のレベルが 'int' と 'void *' で異なっています。
+C:\Users\qqnq7\Documents\Programming\c_school\0109_03\0109_03\delete.c(23,21): warning C4047: '=': 間接参照のレベルが 'int' と 'void *' で異なっています。
+C:\Users\qqnq7\Documents\Programming\c_school\0109_03\0109_03\delete.c(24,24): warning C4047: '=': 間接参照のレベルが 'int' と 'void *' で異なっています。
+C:\Users\qqnq7\Documents\Programming\c_school\0109_03\0109_03\delete.c(25,23): warning C4047: '=': 間接参照のレベルが 'int' と 'void *' で異なっています。
+C:\Users\qqnq7\Documents\Programming\c_school\0109_03\0109_03\delete.c(9,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  initialize.c
+C:\Users\qqnq7\Documents\Programming\c_school\0109_03\0109_03\initialize.c(8,15): warning C4047: '=': 間接参照のレベルが 'char' と 'char [1]' で異なっています。
+  input.c
+C:\Users\qqnq7\Documents\Programming\c_school\0109_03\0109_03\input.c(6,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\qqnq7\Documents\Programming\c_school\0109_03\0109_03\input.c(8,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\qqnq7\Documents\Programming\c_school\0109_03\0109_03\input.c(10,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\qqnq7\Documents\Programming\c_school\0109_03\0109_03\input.c(13,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\qqnq7\Documents\Programming\c_school\0109_03\0109_03\input.c(17,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\qqnq7\Documents\Programming\c_school\0109_03\0109_03\input.c(19,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\qqnq7\Documents\Programming\c_school\0109_03\0109_03\input.c(21,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\qqnq7\Documents\Programming\c_school\0109_03\0109_03\input.c(23,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\qqnq7\Documents\Programming\c_school\0109_03\0109_03\input.c(25,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  main.c
+C:\Users\qqnq7\Documents\Programming\c_school\0109_03\0109_03\main.c(32,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\qqnq7\Documents\Programming\c_school\0109_03\0109_03\main.c(54,5): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  read.c
+C:\Users\qqnq7\Documents\Programming\c_school\0109_03\0109_03\read.c(9,11): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\qqnq7\Documents\Programming\c_school\0109_03\0109_03\read.c(15,9): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  save.c
+C:\Users\qqnq7\Documents\Programming\c_school\0109_03\0109_03\save.c(8,11): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  show.c
+  showheader.c
+  showHighestAndLowestPoints.c
+C:\Users\qqnq7\Documents\Programming\c_school\0109_03\0109_03\showHighestAndLowestPoints.c(17,22): warning C4047: '=': 間接参照のレベルが 'char' と 'void *' で異なっています。
+C:\Users\qqnq7\Documents\Programming\c_school\0109_03\0109_03\showHighestAndLowestPoints.c(26,21): warning C4047: '=': 間接参照のレベルが 'char' と 'void *' で異なっています。
+  sortByGrade.c
+  sortById.c
+  コードを生成中...
+  0109_03.vcxproj -> C:\Users\qqnq7\Documents\Programming\c_school\0109_03\x64\Debug\0109_03.exe
