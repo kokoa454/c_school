@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\qqnq7\\Documents\\Programming\\c_school\\0114\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5CF62E67-023C-4F0E-A304-A0E1F5791F11}|0114\\0114.vcxproj|C:\\Users\\qqnq7\\Documents\\Programming\\c_school\\0114\\0114\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5CF62E67-023C-4F0E-A304-A0E1F5791F11}|0114\\0114.vcxproj|solutionrelative:0114\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.c",
+              "DocumentMoniker": "C:\\Users\\qqnq7\\Documents\\Programming\\c_school\\0114\\0114\\main.c",
+              "RelativeDocumentMoniker": "0114\\main.c",
+              "ToolTip": "C:\\Users\\qqnq7\\Documents\\Programming\\c_school\\0114\\0114\\main.c",
+              "RelativeToolTip": "0114\\main.c",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAAA8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-01-14T01:08:21.091Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
