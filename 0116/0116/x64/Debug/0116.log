@@ -1,6 +1,1 @@
-﻿  main.c
-C:\Users\qqnq7\Documents\Programming\c_school\0116\0116\main.c(36,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\qqnq7\Documents\Programming\c_school\0116\0116\main.c(95,18): warning C4047: '=': 間接参照のレベルが 'int' と 'void *' で異なっています。
-C:\Users\qqnq7\Documents\Programming\c_school\0116\0116\main.c(98,18): warning C4047: '=': 間接参照のレベルが 'int' と 'void *' で異なっています。
-C:\Users\qqnq7\Documents\Programming\c_school\0116\0116\main.c(242,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  0116.vcxproj -> C:\Users\qqnq7\Documents\Programming\c_school\0116\x64\Debug\0116.exe
+﻿  0116.vcxproj -> C:\Users\qqnq7\Documents\Programming\c_school\0116\x64\Debug\0116.exe

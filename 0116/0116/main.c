@@ -9,6 +9,7 @@ void showUsrNumAndType();
 void getDlrNumAndType();
 void showDlrNumAndType();
 void getHit();
+int checkWinnerAndDraw();
 
 int clover[13][2];
 int spade[13][2];
@@ -22,22 +23,25 @@ char usr_slotType[128];
 int dlr_slotNum[128];
 char dlr_slotType[128];
 
+int cntUsrWin = 0;
+int cntDraw = 0;
+int cntDlrWin = 0;
+
 int main(void) {
 	srand((unsigned int)time(NULL));
 
 	int cnt = 0;
-	char yORn;
-	int cntUsrWin = 0;
-	int cntDraw = 0;
-	int cntDlrWin = 0;
 
 	while (1) {
+		int endGame = 0;
+		char yORn;
+
 		printf("ゲームを開始しますか？ (y/n): ");
 		scanf("%c", &yORn);
 		rewind(stdin);
 
 		if (yORn != 'y' && yORn != 'n') {
-			printf("不正な入力です\n");
+			printf("不正な入力です\n\n");
 		}
 		else if(yORn == 'y') {
 			initializeNumber();
@@ -57,7 +61,17 @@ int main(void) {
 
 			showDlrNumAndType();
 
-			getHit();
+			while (endGame == 0){
+				getHit();
+
+				endGame = checkWinnerAndDraw();
+
+				if (endGame == 1) {
+					continue;
+				}
+			}
+
+			cnt++;
 		}
 		else if(yORn == 'n') {
 			break;
@@ -118,6 +132,9 @@ void getUsrNumAndType() {
 
 			usr_cnt++;
 		}
+		else {
+			getUsrNumAndType();
+		}
 
 		break;
 
@@ -129,6 +146,9 @@ void getUsrNumAndType() {
 			spade[num][1] = 1;
 
 			usr_cnt++;
+		}
+		else {
+			getUsrNumAndType();
 		}
 
 		break;
@@ -142,6 +162,9 @@ void getUsrNumAndType() {
 
 			usr_cnt++;
 		}
+		else {
+			getUsrNumAndType();
+		}
 
 		break;
 
@@ -154,12 +177,32 @@ void getUsrNumAndType() {
 
 			usr_cnt++;
 		}
+		else {
+			getUsrNumAndType();
+		}
 
 		break;
 	}
 
-	if (num == 1 && usr_cnt > 2) {
-		//printf() ここから
+	if (num == 0 && usr_cnt > 2) {
+		int checkA;
+
+		while (1) {
+			printf("Aを11とするか1とするか選んでください (1/11): ");
+			scanf("%d", &checkA);
+			rewind(stdin);
+
+			if (checkA != 11 && checkA != 1) {
+				printf("不正な入力です\n\n");
+			}
+			else {
+				if (checkA == 11) {
+					usr_slotNum[usr_cnt - 1] = 11;
+					break;
+				}
+			}
+		}
+		
 	}
 }
 
@@ -187,6 +230,9 @@ void getDlrNumAndType() {
 
 			dlr_cnt++;
 		}
+		else {
+			getDlrNumAndType();
+		}
 
 		break;
 
@@ -198,6 +244,9 @@ void getDlrNumAndType() {
 			spade[num][1] = 1;
 
 			dlr_cnt++;
+		}
+		else {
+			getDlrNumAndType();
 		}
 
 		break;
@@ -211,6 +260,9 @@ void getDlrNumAndType() {
 
 			dlr_cnt++;
 		}
+		else {
+			getDlrNumAndType();
+		}
 
 		break;
 
@@ -222,6 +274,9 @@ void getDlrNumAndType() {
 			diamond[num][1] = 1;
 
 			dlr_cnt++;
+		}
+		else {
+			getDlrNumAndType();
 		}
 
 		break;
@@ -240,6 +295,7 @@ void showDlrNumAndType() {
 
 void getHit() {
 	char hORs;
+	int dlr_sum = 0;
 
 	while (1) {
 		printf("行動を選択 (h/s): ");
@@ -252,10 +308,75 @@ void getHit() {
 		else if (hORs == 'h') {
 			getUsrNumAndType();
 			showUsrNumAndType();
-			break;
 		}
 		else if (hORs == 's') {
+			for (int i = 0; i < dlr_cnt; i++) {
+				dlr_sum += dlr_slotNum[i];
+			}
+
+			if (dlr_sum < 17) {
+				while (dlr_sum < 17) {
+					getDlrNumAndType();
+					showDlrNumAndType();
+
+					dlr_sum += dlr_slotNum[dlr_cnt - 1];
+				}
+			}
 			break;
 		}
+	}
+}
+
+int checkWinnerAndDraw() {
+	int usr_sum = 0;
+	int dlr_sum = 0;
+
+	for (int i = 0; i < usr_cnt; i++) {
+		usr_sum += usr_slotNum[i];
+	}
+
+	for (int i = 0; i < dlr_cnt; i++) {
+		dlr_sum += dlr_slotNum[i];
+	}
+
+	if (usr_sum == dlr_sum) {
+		printf("引き分けです\n\n");
+		cntDraw++;
+
+		return 1;
+	}
+	else if (usr_sum > 21 && dlr_sum > 21) {
+		printf("引き分けです\n\n");
+		cntDraw++;
+
+		return 1;
+	}
+	else if (usr_sum > 21) {
+		printf("あなたの負けです\n\n");
+		cntDlrWin++;
+
+		return 1;
+	}
+	else if (dlr_sum > 21) {
+		printf("あなたの勝ちです\n\n");
+		cntUsrWin++;
+
+		return 1;
+	}
+	else if (usr_sum > dlr_sum) {
+		printf("あなたの勝ちです\n\n");
+		cntUsrWin++;
+
+		return 1;
+	}
+	else if (dlr_sum > usr_sum) {
+		printf("あなたの負けです\n\n");
+
+		cntDlrWin++;
+
+		return 1;
+	}
+	else {
+		return 0;
 	}
 }
