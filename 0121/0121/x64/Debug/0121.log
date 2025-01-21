@@ -1,0 +1,3 @@
+﻿  main.c
+C:\Users\qqnq7\Documents\Programming\c_school\0121\0121\main.c(54,33): warning C4553: '==': 式の結果が使用されていません。'=' を意図していますか?
+  0121.vcxproj -> C:\Users\qqnq7\Documents\Programming\c_school\0121\x64\Debug\0121.exe
