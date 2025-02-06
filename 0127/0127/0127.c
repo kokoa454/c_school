@@ -1,5 +1,9 @@
 ﻿#include <stdio.h>
 #include <string.h>
+#include <ctype.h>
+
+void showSentence();
+void showKeyboard(char);
 
 char basic_alphabet[26] = { 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z' };
 char plugBoard_alphabet[26];
@@ -12,11 +16,31 @@ char output_reflecter[26] = { 'E', 'J', 'M', 'Z', 'A', 'L', 'Y', 'X', 'V', 'B', 
 char input_sentence[1024];
 char output_sentence[1024];
 
-int main(void) {
-	int plugBoard_num;
-	printf("プラグボードの番号を入力 (0 - 25) >> ");
-	scanf("%d", &plugBoard_num);
+int plugBoard_num;
+int scrambler_num1;
+int scrambler_num2;
+int scrambler_num3;
+char firstScrambler[26];
+char secondScrambler[26];
+char thirdScrambler[26];
 
+int main(void) {
+	while (1) {
+		printf("プラグボードの番号を入力 (0 - 25) >> ");
+		rewind(stdin);
+		scanf("%d", &plugBoard_num);
+
+		if (plugBoard_num < 0 || plugBoard_num > 25) {
+			printf("!ERROR 不正入力!\n\n");
+		}
+		else if (!isdigit(plugBoard_num)) {
+			printf("!ERROR 不正入力!\n\n");
+		}
+		else {
+			break;
+		}
+	}
+	
 	int cnt = 0;
 	for (int i = 0; i < 26; i++) {
 		if (i + plugBoard_num >= 26) {
@@ -28,18 +52,53 @@ int main(void) {
 		}
 	}
 
-	int scrambler_num1;
-	int scrambler_num2;
-	int scrambler_num3;
-	char firstScrambler[26];
-	char secondScrambler[26];
-	char thirdScrambler[26];
-	printf("1番目のスクランブラーの順番を入力 (1 - 3) >> ");
-	scanf("%d", &scrambler_num1);
-	printf("2番目のスクランブラーの順番を入力 (1 - 3) >> ");
-	scanf("%d", &scrambler_num2);
-	printf("3番目のスクランブラーの順番を入力 (1 - 3) >> ");
-	scanf("%d", &scrambler_num3);
+	while (1) {
+		printf("1番目のスクランブラーの順番を入力 (1 - 3) >> ");
+		rewind(stdin);
+		scanf("%d", &scrambler_num1);
+
+		if (scrambler_num1 < 1 || scrambler_num1 > 3) {
+			printf("!ERROR 不正入力!\n\n");
+		}
+		else if (!isdigit(scrambler_num1)) {
+			printf("!ERROR 不正入力!\n\n");
+		}
+		else {
+			break;
+		}
+	}
+
+	while (1) {
+		printf("2番目のスクランブラーの順番を入力 (1 - 3) >> ");
+		rewind(stdin);
+		scanf("%d", &scrambler_num2);
+
+		if ((scrambler_num2 < 1 || scrambler_num2 > 3) || scrambler_num2 == scrambler_num1) {
+			printf("!ERROR 不正入力!\n\n");
+		}
+		else if (!isdigit(scrambler_num2)) {
+			printf("!ERROR 不正入力!\n\n");
+		}
+		else {
+			break;
+		}
+	}
+
+	while (1) {
+		printf("3番目のスクランブラーの順番を入力 (1 - 3) >> ");
+		rewind(stdin);
+		scanf("%d", &scrambler_num3);
+
+		if ((scrambler_num3 < 1 || scrambler_num3 > 3) || scrambler_num3 == scrambler_num1 || scrambler_num3 == scrambler_num2) {
+			printf("!ERROR 不正入力!\n\n");
+		}
+		else if (!isdigit(scrambler_num3)) {
+			printf("!ERROR 不正入力!\n\n");
+		}
+		else {
+			break;
+		}
+	}
 
 	for (int i = 0; i < 26; i++) {
 		if (scrambler_num1 == 1) {
@@ -95,6 +154,33 @@ int main(void) {
 	}
 	printf("\n\n");
 
+	while (1) {
+		int codeOrDecode;
+		printf("1: 暗号化  2: 復号化  3: 終了 >> ");
+		rewind(stdin);
+		scanf("%d", &codeOrDecode);
+		printf("\n\n");
+
+		if (codeOrDecode != 1 && codeOrDecode != 2 && codeOrDecode != 3) {
+			printf("!ERROR 不正入力!\n\n");
+		}
+		else if (!isdigit(codeOrDecode)) {
+			printf("!ERROR 不正入力!\n\n");
+		}
+		else {
+			if (codeOrDecode == 1) {
+				showSentence();
+			}
+			else {
+				break;
+			}
+		}
+	}
+
+	return 0;
+}
+
+void showSentence() {
 	printf("変換する文章を入力 (1 - 1024文字) >> ");
 	scanf("%s", &input_sentence);
 
@@ -123,6 +209,7 @@ int main(void) {
 																						for (int t = 0; t < 26 && !flg; t++) {
 																							if (firstScrambler[r] == plugBoard_alphabet[t]) {
 																								output_sentence[i] = plugBoard_alphabet[t];
+																								showKeyboard(plugBoard_alphabet[t]);
 																								flg = 1;
 																								break;
 																							}
@@ -150,14 +237,17 @@ int main(void) {
 		}
 	}
 
-	int lengthOfOutput = strlen(output_sentence);
-	output_sentence[lengthOfOutput + 1] = '\0';
-	printf("変換後の文章: %s", output_sentence);
-	return 0;
+	printf("変換後の文章: %s\n\n", output_sentence);
 }
 
-//printf("----------------------------------\n");
-//printf("Q   W   E   R   T   Z   U   I   O\n");
-//printf("  A   S   D   F   G   H   J   K\n");
-//printf("P   Y   X   C   V   B   N   M   L\n");
-//printf("----------------------------------\n");
+void showKeyboard(char alphabet) {
+	int lengthOfOutput = strlen(output_sentence);
+	output_sentence[lengthOfOutput + 1] = '\0';
+
+	printf("%s\n", output_sentence);
+	printf("--------------------------------------------\n");
+	printf("| Q   W   E   R   T   Z   U   I   O  |     |\n");
+	printf("|   A   S   D   F   G   H   J   K    |  %c  |\n", alphabet);
+	printf("| P   Y   X   C   V   B   N   M   L  |     |\n");
+	printf("--------------------------------------------\n\n");
+}
