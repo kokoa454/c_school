@@ -1,10 +1,11 @@
 ﻿  0127.c
-C:\Users\qqnq7\Documents\Programming\c_school\0127\0127\0127.c(38,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\qqnq7\Documents\Programming\c_school\0127\0127\0127.c(62,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\qqnq7\Documents\Programming\c_school\0127\0127\0127.c(75,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\qqnq7\Documents\Programming\c_school\0127\0127\0127.c(88,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\qqnq7\Documents\Programming\c_school\0127\0127\0127.c(185,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\qqnq7\Documents\Programming\c_school\0127\0127\0127.c(209,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\qqnq7\Documents\Programming\c_school\0127\0127\0127.c(256,23): warning C4267: '初期化中': 'size_t' から 'int' に変換しました。データが失われているかもしれません。
-C:\Users\qqnq7\Documents\Programming\c_school\0127\0127\0127.c(269,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  0127.vcxproj -> C:\Users\qqnq7\Documents\Programming\c_school\0127\x64\Debug\0127.exe
+D:\Programming\c_school\0127\0127\0127.c(50,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Programming\c_school\0127\0127\0127.c(102,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Programming\c_school\0127\0127\0127.c(121,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Programming\c_school\0127\0127\0127.c(152,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Programming\c_school\0127\0127\0127.c(165,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Programming\c_school\0127\0127\0127.c(178,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Programming\c_school\0127\0127\0127.c(279,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Programming\c_school\0127\0127\0127.c(331,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Programming\c_school\0127\0127\0127.c(382,23): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  0127.vcxproj -> D:\Programming\c_school\0127\x64\Debug\0127.exe
