@@ -1,6 +1,9 @@
 ﻿#include <stdio.h>
 #include <string.h>
 
+void setPlugBoard();
+void setScrambler();
+void showInfo();
 void code();
 void showKeyboard(char);
 void decode();
@@ -15,7 +18,7 @@ char scrambler2_back[26] = { 'E', 'J', 'M', 'Z', 'A', 'L', 'Y', 'X', 'V', 'B', '
 char scrambler3_front[26] = { 'B', 'D', 'F', 'H', 'J', 'L', 'C', 'P', 'R', 'T', 'X', 'V', 'Z', 'N', 'Y', 'E', 'I', 'W', 'G', 'A', 'K', 'M', 'U', 'S', 'Q', 'O' };
 char scrambler3_back[26] = { 'E', 'K', 'M', 'F', 'L', 'G', 'D', 'Q', 'V', 'Z', 'N', 'T', 'O', 'W', 'Y', 'H', 'X' ,'U', 'S', 'P', 'A', 'I', 'B', 'R', 'C', 'J' };
 char input_reflecter[26] = { 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z' };
-char output_reflecter[26] = { 'E', 'J', 'M', 'Z', 'A', 'L', 'Y', 'X', 'V', 'B', 'W', 'F', 'C', 'R', 'Q', 'U', 'D', 'S', 'O', 'G', 'P', 'T', 'H', 'K', 'I', 'N' };
+char output_reflecter[26] = { 'Y', 'R', 'U', 'H', 'Q', 'S', 'L', 'D', 'P', 'X', 'N', 'G', 'O', 'K', 'M', 'I', 'E', 'B', 'F', 'Z', 'C', 'W', 'V', 'J', 'A', 'T' };
 
 char input_sentence[1024];
 char output_sentence[1024];
@@ -32,19 +35,39 @@ char thirdScrambler_front[26];
 char thirdScrambler_back[26];
 
 int main(void) {
-	while (1) {
-		printf("プラグボードの番号を入力 (0 - 25) >> ");
-		rewind(stdin);
-		scanf("%d", &plugBoard_num);
+	setPlugBoard();
 
-		if (plugBoard_num < 0 || plugBoard_num > 25) {
+	setScrambler();
+	
+	showInfo();
+
+	while (1) {
+		initialize();
+		int codeOrDecode;
+		printf("1: 暗号化  2: 復号化  3: 終了 >> ");
+		rewind(stdin);
+		scanf("%d", &codeOrDecode);
+
+		if (codeOrDecode != 1 && codeOrDecode != 2 && codeOrDecode != 3) {
 			printf("!ERROR 不正入力!\n\n");
 		}
 		else {
-			break;
+			if (codeOrDecode == 1) {
+				code();
+			}
+			else if (codeOrDecode == 2) {
+				decode();
+			}
+			else {
+				break;
+			}
 		}
 	}
-	
+
+	return 0;
+}
+
+void setPlugBoard() {
 	int cnt = 0;
 	for (int i = 0; i < 26; i++) {
 		if (i + plugBoard_num >= 26) {
@@ -56,6 +79,56 @@ int main(void) {
 		}
 	}
 
+	int plugBoard_num;
+	while (1) {
+		printf("交換するアルファベットの数を入力 (0 - 13) >> ");
+		scanf("%d", &plugBoard_num);
+
+		if (plugBoard_num < 0 || plugBoard_num > 13) {
+			printf("!ERROR 不正入力!\n\n");
+		}
+		else {
+			break;
+		}
+	}
+
+	int used[26];
+	for (int i = 0; i < 26; i++) {
+		used[i] = 0;
+	}
+
+	for (int i = 0; i < plugBoard_num; i++) {
+		char char1, char2;
+		printf("組み合わせを選択 (例: A FはF Aに変更) >>");
+		rewind(stdin);
+		scanf("%c %c", &char1, &char2);
+
+		if (char1 < 'A' || char1 > 'Z' || char2 < 'A' || char2 > 'Z') {
+			printf("!ERROR 不正入力!\n\n");
+			i--;
+			continue;
+		}
+
+		int idx1 = char1 - 'A';
+		int idx2 = char2 - 'A';
+
+		if (used[idx1] != 0 || used[idx2] != 0) {
+			printf("!ERROR 不正入力!\n\n");
+			i--;
+			continue;
+		}
+
+		char tmp;
+		tmp = plugBoard_alphabet[idx1];
+		plugBoard_alphabet[idx1] = plugBoard_alphabet[idx2];
+		plugBoard_alphabet[idx2] = tmp;
+
+		used[idx1] = 1;
+		used[idx2] = 1;
+	}
+}
+
+void setScrambler() {
 	while (1) {
 		printf("1番目のスクランブラーの順番を入力 (1 - 3) >> ");
 		rewind(stdin);
@@ -137,6 +210,10 @@ int main(void) {
 		}
 	}
 
+	return;
+}
+
+void showInfo() {
 	printf("\n");
 	printf("[現在のプラグボード]\n");
 	for (int i = 0; i < 26; i++) {
@@ -144,64 +221,40 @@ int main(void) {
 	}
 	printf("\n");
 	printf("[1番目のスクランブラー]\n");
-	printf("表配線:");
+	printf(" 表配線:");
 	for (int i = 0; i < 26; i++) {
 		printf(" %c", firstScrambler_front[i]);
 	}
 	printf("\n");
-	printf("裏配線:");
+	printf(" 裏配線:");
 	for (int i = 0; i < 26; i++) {
 		printf(" %c", firstScrambler_back[i]);
 	}
 	printf("\n");
 	printf("[2番目のスクランブラー]\n");
-	printf("表配線:");
+	printf(" 表配線:");
 	for (int i = 0; i < 26; i++) {
 		printf(" %c", secondScrambler_front[i]);
 	}
 	printf("\n");
-	printf("裏配線:");
+	printf(" 裏配線:");
 	for (int i = 0; i < 26; i++) {
 		printf(" %c", secondScrambler_back[i]);
 	}
 	printf("\n");
 	printf("[3番目のスクランブラー]\n");
-	printf("表配線:");
+	printf(" 表配線:");
 	for (int i = 0; i < 26; i++) {
 		printf(" %c", thirdScrambler_front[i]);
 	}
 	printf("\n");
-	printf("裏配線:");
+	printf(" 裏配線:");
 	for (int i = 0; i < 26; i++) {
 		printf(" %c", thirdScrambler_back[i]);
 	}
 	printf("\n\n");
 
-	while (1) {
-		initialize();
-		int codeOrDecode;
-		printf("1: 暗号化  2: 復号化  3: 終了 >> ");
-		rewind(stdin);
-		scanf("%d", &codeOrDecode);
-		printf("\n\n");
-
-		if (codeOrDecode != 1 && codeOrDecode != 2 && codeOrDecode != 3) {
-			printf("!ERROR 不正入力!\n\n");
-		}
-		else {
-			if (codeOrDecode == 1) {
-				code();
-			}
-			else if (codeOrDecode == 2) {
-				decode();
-			}
-			else {
-				break;
-			}
-		}
-	}
-
-	return 0;
+	return;
 }
 
 void code() {
@@ -250,6 +303,7 @@ void code() {
 	}
 
 	printf("変換後の文章: %s\n\n", output_sentence);
+	return;
 }
 
 void showKeyboard(char alphabet) {
@@ -262,9 +316,10 @@ void showKeyboard(char alphabet) {
 	printf("|   A   S   D   F   G   H   J   K    |  %c  |\n", alphabet);
 	printf("| P   Y   X   C   V   B   N   M   L  |     |\n");
 	printf("--------------------------------------------\n\n");
+	return;
 }
 
-void decode() { //復号にバグあり
+void decode() {
 	printf("変換する文章を入力 (1 - 1024文字) >> ");
 	scanf("%s", &input_sentence);
 
@@ -310,6 +365,7 @@ void decode() { //復号にバグあり
 	}
 
 	printf("変換後の文章: %s\n\n", output_sentence);
+	return;
 }
 
 void initialize() {
@@ -317,4 +373,6 @@ void initialize() {
 		input_sentence[i] = '\0';
 		output_sentence[i] = '\0';
 	}
+
+	return;
 }

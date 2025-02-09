@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\qqnq7\\Documents\\Programming\\c_school\\0127\\",
+  "WorkspaceRootPath": "D:\\Programming\\c_school\\0127\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{295DF0D5-7D0C-4EF1-A7AA-ACFDEA23BD7B}|0127\\0127.vcxproj|C:\\Users\\qqnq7\\Documents\\Programming\\c_school\\0127\\0127\\0127.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{295DF0D5-7D0C-4EF1-A7AA-ACFDEA23BD7B}|0127\\0127.vcxproj|D:\\Programming\\c_school\\0127\\0127\\0127.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{295DF0D5-7D0C-4EF1-A7AA-ACFDEA23BD7B}|0127\\0127.vcxproj|solutionrelative:0127\\0127.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -14,25 +14,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "0127.c",
-              "DocumentMoniker": "C:\\Users\\qqnq7\\Documents\\Programming\\c_school\\0127\\0127\\0127.c",
+              "DocumentMoniker": "D:\\Programming\\c_school\\0127\\0127\\0127.c",
               "RelativeDocumentMoniker": "0127\\0127.c",
-              "ToolTip": "C:\\Users\\qqnq7\\Documents\\Programming\\c_school\\0127\\0127\\0127.c",
+              "ToolTip": "D:\\Programming\\c_school\\0127\\0127\\0127.c",
               "RelativeToolTip": "0127\\0127.c",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAAAoBAAAVAAAAAAAAAA==",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAuwHkBAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-01-27T01:23:18.218Z",
               "EditorCaption": ""
